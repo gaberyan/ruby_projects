@@ -1,7 +1,7 @@
 ##Gabe Ryan
 ##Ceasar Cipher
 ##June 20, 2017
-##Ruby
+
 
 
 def ceasar_cipher(text,key)
