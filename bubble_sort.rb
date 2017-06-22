@@ -5,10 +5,10 @@
 
 
 def bubble_sort(arr)
-  arr.length.times { |i|
-    arr.length.times { |j|
-      if arr[i] < arr[j]
-        arr[i],arr[j] = arr[j],arr[i]
+  (arr.length-1).downto(0) { |num|
+    num.times { |i|
+      if arr[i] > arr[i+1]
+        arr[i],arr[i+1] = arr[i+1],arr[i]
       end
     }
   }
