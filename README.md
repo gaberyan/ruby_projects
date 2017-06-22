@@ -5,3 +5,4 @@ Project list:
 * Stock Picker
 * Substrings
 * Bubble Sort
+* Enumerable
