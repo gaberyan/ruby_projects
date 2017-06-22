@@ -1,10 +1,10 @@
 ##Gabe Ryan
-##Ceasar Cipher
+##Caesar Cipher
 ##June 20, 2017
 
 
 
-def ceasar_cipher(text,key)
+def caesar_cipher(text,key)
   final_text = ""
   words = text.split("")
   words.each { |char|
@@ -30,7 +30,7 @@ end
 
 
 def main
-  puts "Welcome to Ceasar Cipher!"
+  puts "Welcome to Caesar Cipher!"
   puts "Enter 'encode' or 'decode' to begin program"
   choice = gets.chomp.downcase
 
@@ -40,13 +40,13 @@ def main
     text = gets.chomp
     puts "Enter a key to encode with:"
     key = gets.chomp
-    ceasar_cipher(text,key.to_i)
+    caesar_cipher(text,key.to_i)
   when "decode"
     puts "Enter phrase to encode:"
     text = gets.chomp
     puts "Enter a key to decode with:"
     key = gets.chomp
-    ceasar_cipher(text,key.to_i)
+    caesar_cipher(text,key.to_i)
   else
     puts "Error, please run again"
   end
