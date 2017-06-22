@@ -4,3 +4,4 @@ Project list:
 * Caesar Cipher
 * Stock Picker
 * Substrings
+* Bubble Sort
