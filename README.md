@@ -6,3 +6,7 @@ Project list:
 * Substrings
 * Bubble Sort
 * Enumerable
+* Tic-Tac-Toe
+  * tictactoe.rb
+  * Game.rb
+  * Board.rb
